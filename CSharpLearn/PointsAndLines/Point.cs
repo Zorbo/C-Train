@@ -4,12 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLearn
+
+
+namespace PointsAndLines
 {
-    class Program
+
+    class Point
     {
-        static void Main(string[] args)
-        {
-        }
+
+        public int x;
+        public int y;
+
     }
+
 }
+
+
+    
+
