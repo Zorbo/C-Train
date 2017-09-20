@@ -21,7 +21,9 @@ namespace CSharpLearn
         public int Height
         {
             get { return height; }
-            set { if(value > 0 )height = value; }
+            // we can write algorythms inside the set
+            //ALWAYS USE VALUE KEYWORD ITS GIVE YOU BACK THE VALUE
+            set { if (value > 0) height = value; }
 
         }
 
